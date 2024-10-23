@@ -15,7 +15,7 @@ function App() {
           if (checkWinner(updatedTicTac, turn)) {
           setWinner(turn); // Set the winner
         }
-        setTurn(turn === 'X' ? 'O' : 'X')
+        setTurn(turn === 'X' ? 'O' : 'X');
       }
       return updatedTicTac;
     })
